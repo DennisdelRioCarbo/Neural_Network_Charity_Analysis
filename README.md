@@ -53,7 +53,7 @@ Using machine learning and neural networks, we’ll use the features in the prov
     ![image](https://user-images.githubusercontent.com/104289098/189547488-86461833-e379-42f3-85d6-e090e651ab93.png)
 
   - What steps did you take to try and increase model performance?
-  - The first step was trying to detect any outliers in the dataset, specifically in the *Funding amount requested* **ASK_AMT** where we noticed a big discrepancy between the mean and the third quartile. We adjusted and dropped some of the extreme values hoping that this would help training the model better. Once we did this we made three attemtps to increase the model perfomance as follows:
+  - The first step was trying to detect any outliers in the dataset, specifically in the *Funding amount requested* **ASK_AMT** where we noticed a big discrepancy between the mean and the third quartile. We adjusted and dropped some of the extreme values hoping that this would help train the model better. Once we did this we made three attemtps to increase the model perfomance as follows:
   
   1. **nn1 model** We increased the number of neurons in the *first hidden layer* from **80** to **120** and in the *second hidden layer* from **30** to **80**. We kept 2 hidden layers with the *relu* activation, **50** *epochs*, and 1 *output layer* with *sigmoid* activation. There was no substantial increase in *accuracy*.
   
