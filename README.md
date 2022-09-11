@@ -43,6 +43,8 @@ Using machine learning and neural networks, we’ll use the features in the prov
   - How many neurons, layers, and activation functions did you select for your neural network model, and why?
   For our first model (**nn model**) we selected *2 hidden layers* with **80** neurons in the first layer and **30** neurons in the second layer. We used the *relu* activation function as it seemed to work better when we have several inputs. For our *output layer* we used the *sigmoid* activation function with a single neuron. This first model served as exploratory and as a base line to see what level of accuracy we could get and try to increase model performance if necessary. 
   
+  ![image](https://user-images.githubusercontent.com/104289098/189547613-a1f033bb-06a9-4b44-86ab-6183de62dca0.png)
+
   - Were you able to achieve the target model performance?
     No, despite several attempts to increase model performance the highest level of *accuracy* we were able to reach was 66%.
     
@@ -51,6 +53,8 @@ Using machine learning and neural networks, we’ll use the features in the prov
     ![image](https://user-images.githubusercontent.com/104289098/189547488-86461833-e379-42f3-85d6-e090e651ab93.png)
 
   - What steps did you take to try and increase model performance?
+  - The first step was trying to detect any outliers in the dataset, specifically in the *Funding amount requested* **ASK_AMT** where we noticed a big discrepancy between the mean and the third quartile. We adjusted and dropped some of the extreme values hoping that this would help training the model better. Once we did this we made three attemtps to increase the model perfomance.
+  
   1. **nn1 model** We increased the number of neurons in the *first hidden layer* from **80** to **120** and in the *second hidden layer* from **30** to **80**. We kept 2 hidden layers with the *relu* activation, **50** *epochs*, and 1 *output layer* with *sigmoid* activation. There was no substantial increase in *accuracy*.
   
   ![image](https://user-images.githubusercontent.com/104289098/189546396-6b2f656c-59ba-495e-aca9-01cdd00c8185.png)
@@ -73,3 +77,5 @@ Using machine learning and neural networks, we’ll use the features in the prov
 
 
 ## Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+
+
