@@ -46,7 +46,7 @@ Using machine learning and neural networks, we’ll use the features in the prov
   ![image](https://user-images.githubusercontent.com/104289098/189547613-a1f033bb-06a9-4b44-86ab-6183de62dca0.png)
 
   - Were you able to achieve the target model performance?
-    No, despite several attempts to increase model performance the highest level of *accuracy* we were able to reach was 66%.
+    No, despite several attempts to increase model performance the highest level of *accuracy* we were able to reach was **66%**.
     
     **nn model**
     
@@ -80,6 +80,6 @@ Using machine learning and neural networks, we’ll use the features in the prov
 Despite preprocessing the data and making several attempts at increasing model performance we were not able to achieve a target model performance of more than **75%** *accuracy*. More attempts would be needed to try and increase model performance like increasing the number of *output layers*, changing the number of *output neurons* and using a different *activation function* in the *output layer* which are some the model features that were not explored in the previuos models.
 The data itself would need to be re-analyzed to see if there are any additional rows that need to be dropped or other values need to be binned in addition to what has already been processed.
 It is worth noting that we got better results with the initial model (**nn model**) were the ASK_AMT was not modified.
-Adding more neurons and more layers did not increase model performance, neither did changing the *activation function* in the *hidden layers* 
+Adding more neurons and more layers and more neuron did not increase model performance, neither did changing the *activation function* in the *hidden layers*. 
 
 
