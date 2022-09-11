@@ -19,7 +19,7 @@ IS_SUCCESSFUL—Was the money used effectively
 
 Using machine learning and neural networks, we’ll use the features in the provided dataset to create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
 
-## Results: Using bulleted lists and images to support your answers, address the following questions.
+## Results
 
 - Data Preprocessing
   - What variable(s) are considered the target(s) for your model?
@@ -58,8 +58,10 @@ Using machine learning and neural networks, we’ll use the features in the prov
   
   ![image](https://user-images.githubusercontent.com/104289098/189546438-9fd507db-a162-4a65-a2d9-e0d4616ccd76.png)
   
-  3. We kept the 6 *hidden layers* with **50** *epochs* and this time changed the activation function to *tanh*.
-  
+  3. We kept the 6 *hidden layers* with the same number of *neurons* and **50** *epochs*. This time changed the activation function to *tanh*.
+
+  ![image](https://user-images.githubusercontent.com/104289098/189546784-e953c406-0164-4dbd-af1c-24f6485d819d.png)
+
   ![image](https://user-images.githubusercontent.com/104289098/189546567-a970afeb-07cb-4b0a-a975-6e14b4313b65.png)
 
 
