@@ -41,14 +41,17 @@ Using machine learning and neural networks, we’ll use the features in the prov
   
 - Compiling, Training, and Evaluating the Model
   - How many neurons, layers, and activation functions did you select for your neural network model, and why?
-  For our first model we selected *2 hidden layers* with **80** neurons in the first layer and **30** neurons in the second layer. We used the *relu* activation function as it seemed to work better when we have more than 2 inputs as seen in *Tensorflow playground*. For our *output layer* we used the *sigmoid* activation function with a single neuron. This first model served as exploratory and as a base line to see what level of accuracy we could get and try to increase model performance if necessary. 
+  For our first model we selected *2 hidden layers* with **80** neurons in the first layer and **30** neurons in the second layer. We used the *relu* activation function as it seemed to work better when we have several inputs. For our *output layer* we used the *sigmoid* activation function with a single neuron. This first model served as exploratory and as a base line to see what level of accuracy we could get and try to increase model performance if necessary. 
+  
+  
   
   - Were you able to achieve the target model performance?
-    No, despite several attempts to increase model performance the highest level of *accuracy* we were able to reach was 50%.
+    No, despite several attempts to increase model performance the highest level of *accuracy* we were able to reach was 66%.
     
-    ![image](https://user-images.githubusercontent.com/104289098/189546239-c924231e-2638-4033-b460-ff17b7cb6bd3.png)
+    **nn model**
+    
+    ![image](https://user-images.githubusercontent.com/104289098/189547488-86461833-e379-42f3-85d6-e090e651ab93.png)
 
-    
   - What steps did you take to try and increase model performance?
   1. We increased the number of neurons in the *first hidden layer* from **80** to **120** and in the *second hidden layer* from **30** to **80**. We kept 2 hidden layers with the *relu* activation, **50** *epochs*, and 1 *output layer* with *sigmoid* activation. There was no substantial increase in *accuracy*.
   
