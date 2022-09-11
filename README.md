@@ -41,9 +41,7 @@ Using machine learning and neural networks, we’ll use the features in the prov
   
 - Compiling, Training, and Evaluating the Model
   - How many neurons, layers, and activation functions did you select for your neural network model, and why?
-  For our first model we selected *2 hidden layers* with **80** neurons in the first layer and **30** neurons in the second layer. We used the *relu* activation function as it seemed to work better when we have several inputs. For our *output layer* we used the *sigmoid* activation function with a single neuron. This first model served as exploratory and as a base line to see what level of accuracy we could get and try to increase model performance if necessary. 
-  
-  
+  For our first model (**nn model**) we selected *2 hidden layers* with **80** neurons in the first layer and **30** neurons in the second layer. We used the *relu* activation function as it seemed to work better when we have several inputs. For our *output layer* we used the *sigmoid* activation function with a single neuron. This first model served as exploratory and as a base line to see what level of accuracy we could get and try to increase model performance if necessary. 
   
   - Were you able to achieve the target model performance?
     No, despite several attempts to increase model performance the highest level of *accuracy* we were able to reach was 66%.
@@ -53,19 +51,19 @@ Using machine learning and neural networks, we’ll use the features in the prov
     ![image](https://user-images.githubusercontent.com/104289098/189547488-86461833-e379-42f3-85d6-e090e651ab93.png)
 
   - What steps did you take to try and increase model performance?
-  1. We increased the number of neurons in the *first hidden layer* from **80** to **120** and in the *second hidden layer* from **30** to **80**. We kept 2 hidden layers with the *relu* activation, **50** *epochs*, and 1 *output layer* with *sigmoid* activation. There was no substantial increase in *accuracy*.
+  1. **nn1 model** We increased the number of neurons in the *first hidden layer* from **80** to **120** and in the *second hidden layer* from **30** to **80**. We kept 2 hidden layers with the *relu* activation, **50** *epochs*, and 1 *output layer* with *sigmoid* activation. There was no substantial increase in *accuracy*.
   
   ![image](https://user-images.githubusercontent.com/104289098/189546396-6b2f656c-59ba-495e-aca9-01cdd00c8185.png)
   
   ![image](https://user-images.githubusercontent.com/104289098/189547239-1665ed0f-aecf-4a14-a8f9-f2dde1c9d859.png)
 
-  2. We increased the number of *hidden layers* to 6, with *relu* activation,**50** *epochs* and 1 *output layer* with *sigmoid* activation. No increase in *accuracy*.
+  2. **nn2 model** We increased the number of *hidden layers* to 6, with *relu* activation,**50** *epochs* and 1 *output layer* with *sigmoid* activation. No increase in *accuracy*.
   
   ![image](https://user-images.githubusercontent.com/104289098/189546438-9fd507db-a162-4a65-a2d9-e0d4616ccd76.png)
   
   ![image](https://user-images.githubusercontent.com/104289098/189547264-1340d0b6-feea-4f5c-959f-48ff2c71ce4e.png)
  
-  3. We kept the 6 *hidden layers* with the same number of *neurons*, **50** *epochs* and 1 *output layer* with *sigmoid* activation. This time we changed the activation function in the *hidden layers* to *tanh*. Again no increase in *accuracy*
+  3. **nn3 model** We kept the 6 *hidden layers* with the same number of *neurons*, **50** *epochs* and 1 *output layer* with *sigmoid* activation. This time we changed the activation function in the *hidden layers* to *tanh*. Again no increase in *accuracy*
 
   ![image](https://user-images.githubusercontent.com/104289098/189546784-e953c406-0164-4dbd-af1c-24f6485d819d.png)
 
